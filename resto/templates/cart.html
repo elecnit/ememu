@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{% static 'css/cart.css' %}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Dancing+Script&family=Edu+QLD+Beginner:wght@600&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Dancing+Script&family=Edu+QLD+Beginner:wght@600&family=Kalam:wght@300&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+ <h2> Cart Page</h2>
+    {% block content %}
+   
+    {% for order in order_list %}
+    <p>{{order.0}}&nbsp &nbsp &nbsp -/ {{order.1}}</p>  
+    
+    <br>
+    {% endfor %}
+    <a href="{%url 'placedorder' tab_no%}" class="placeorder">Pay</a>
+    {% endblock content %}
+   
+</body>
+</html>

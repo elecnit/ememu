@@ -1,0 +1,25 @@
+body {
+    background-image:linear-gradient(to right ,rgba(167, 41, 41, 0.9),rgb(33, 121, 228)) ;
+   
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    
+    }
+
+p {
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 20px;
+       font-family: 'Kalam', cursive;
+    
+    
+    }
+.btn {
+    
+        font-size: 20px;
+       font-family: 'Kalam', cursive; 
+       border-radius: 5px;
+}

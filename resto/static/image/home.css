@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/image/restohome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#nav {
+    width: 85%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+h2 {
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+}
+
+#nav ul a {
+   list-style-type: none;
+   display: inline-block;
+   margin: 0 20px;
+   font-family: 'Dancing Script', cursive;
+   
+}
+
+
+#nav ul a li{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#title {
+    margin: 0px 0 0 400px ;
+}
+
+.taste {
+    color: #d9cac4;
+    font-size: 60px;
+    margin: 0px 0 0 500px;
+   font-family: 'Edu QLD Beginner', cursive;
+
+}
+
+h1 {
+    color: white;
+    font-size: 150px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+/**hhhhh**/
+body {
+    margin: 0;
+    padding: 0;
+}
+

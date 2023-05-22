@@ -1,0 +1,117 @@
+body {
+    background-image:linear-gradient(to right ,rgba(167, 41, 41, 0.9),rgb(33, 121, 228)) ;
+   
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    
+    }
+
+p {
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 20px;
+       font-family: 'Kalam', cursive;
+    
+    
+    }
+
+
+h3 {
+        font-size: 25px;
+        font-family:'Edu QLD Beginner', cursive;
+        font-weight: bolder;
+    }
+
+.body {
+    background-image:linear-gradient(to right ,rgba(167, 41, 41, 0.9),rgb(33, 121, 228)) ;
+   
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    
+    }
+
+p {
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 20px;
+       font-family: 'Kalam', cursive;
+    
+    
+    }
+
+.placeorder {
+        color: aliceblue;
+        border: 1px solid black;
+        padding: 10px 10px 10px 10px;
+        font-size: 30px;
+        font-family: 'Edu QLD Beginner', cursive;
+        background: linear-gradient(to right ,rgba(150, 12, 10, 0.9),rgb(6, 75, 160));
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+h3 {
+        font-size: 25px;
+        font-family:'Edu QLD Beginner', cursive;
+        font-weight: bolder;
+    }
+
+.body {
+    background-image:linear-gradient(to right ,rgba(167, 41, 41, 0.9),rgb(33, 121, 228)) ;
+   
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    
+    }
+
+p {
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 20px;
+       font-family: 'Kalam', cursive;
+    
+    
+    }
+
+.placeorder {
+        color: aliceblue;
+        border: 1px solid black;
+        padding: 10px 10px 10px 10px;
+        font-size: 30px;
+        font-family: 'Edu QLD Beginner', cursive;
+        background: linear-gradient(to right ,rgba(150, 12, 10, 0.9),rgb(6, 75, 160));
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+h3 {
+        font-size: 25px;
+        font-family:'Edu QLD Beginner', cursive;
+        font-weight: bolder;
+    }
+
+.orderbox {
+    border: 2px solid rgb(235, 228, 228);
+    width: 500px;
+    margin: 50px 0 50px 100px;
+    height: 250px;
+    overflow: scroll;
+}
+
+
+.orderbox h3 {
+    text-decoration: underline;
+}
+.orderbox p {
+    margin: 0 0 0 15px;
+
+}

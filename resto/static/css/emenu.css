@@ -1,0 +1,33 @@
+body {
+    background-image:linear-gradient(to right ,rgba(167, 41, 41, 0.9),rgb(33, 121, 228)) ;
+   
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    text-decoration:underline;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+   font-family: 'Kalam', cursive;
+
+
+}
+.placeorder {
+    color: aliceblue;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    font-size: 35px;
+    font-family: 'Edu QLD Beginner', cursive;
+    background: linear-gradient(to right ,rgba(144, 42, 41, 0.9),rgb(33, 121, 228));
+    border-radius: 5px;
+}

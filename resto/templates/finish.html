@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{% static 'css/finished.css' %}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Dancing+Script&family=Edu+QLD+Beginner:wght@600&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Dancing+Script&family=Edu+QLD+Beginner:wght@600&family=Kalam:wght@300&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav">
+        <a href="{% url 'home' %}"><h2>Auto Resto</h2></a>
+        <ul>
+        
+         {% if user.is_authenticated %}
+    
+         <a href="{% url 'logout' %}"><li style="color: aliceblue;">Logout</li></a>
+    
+         <a href="{% url 'emenu' tab_no%}"><li style="color: aliceblue;">Menu</li></a>
+    
+         {% if user.username == 'admin' %}
+         <a href="{% url 'chieforder' %}"><li style="color: aliceblue;">Order View</li></a>
+         <a href="{% url 'additem' %}"><li style="color: aliceblue;">Add Item</li></a>
+         
+         
+         {% endif %}
+         {% else %}
+         <a href="{% url 'login' %}"><li style="color: aliceblue;">Login</li></a>
+         
+         <a href="{% url 'signup' %}"><li style="color: aliceblue;">Sign up</li></a>
+    
+       
+         {% endif %}
+        </ul>
+     
+      </div>
+
+    <h2>Thank You</h2>
+    <p>Wait For Few Minutes , Your Order Is Preparing........</p>
+</body>
+</html>
